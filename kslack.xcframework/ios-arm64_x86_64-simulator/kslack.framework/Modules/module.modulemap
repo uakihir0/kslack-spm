@@ -1,0 +1,5 @@
+framework module "kslack" {
+    umbrella header "kslack.h"
+    export *
+    module * { export * }
+}
